@@ -100,9 +100,9 @@
     <color name="config_defaultNotificationColor">#ff00ff00</color>
     <integer name="config_notificationsBatteryLowARGB">0xffff0000</integer>
     <integer name="config_notificationsBatteryMediumARGB">0xffff0000</integer>
-    <integer name="config_notificationsBatteryFullARGB">0xff00ff00</integer> 
+    <integer name="config_notificationsBatteryFullARGB">0xff00ff00</integer>
     <bool name="config_automatic_brightness_available">true</bool>
-    
+
     <!-- Control Brightness levels -->
     <integer-array name="config_autoBrightnessLevels">
         <item>16</item>
@@ -145,7 +145,7 @@
         <item>230</item>
         <item>255</item>
     </integer-array>
-    
+
  <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
@@ -239,7 +239,7 @@
 
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
-    
+
 
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 
@@ -314,13 +314,16 @@
          correctly use them when installed on your device.  Otherwise, keep this disabled
          so that applications can still use their own mechanisms. -->
     <bool name="config_enableAutoPowerModes">true</bool>
-	
+
     <!-- Control whether Night display is available. -->
     <bool name="config_nightDisplayAvailable">true</bool>
-	
+
     <!-- WiFi display is supported by this device. -->
     <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- DT2W support -->
     <bool name="config_supportDoubleTapWake">true</bool>
+
+    <!-- Allow the flashlight to use wakelocks -->
+    <bool name="config_useWakeLockForFlashlight">true</bool>
 </resources>
