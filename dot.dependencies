@@ -4,7 +4,7 @@
       "target_path":"hardware/lenovo/aio_row"
    },
    {
-      "repository":"proprietary_vendor_lenovo",
+      "repository":"proprietary_vendor_lenovo_aio_row",
       "target_path":"vendor/lenovo"
    }
 ]
